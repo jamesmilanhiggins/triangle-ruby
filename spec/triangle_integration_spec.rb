@@ -9,7 +9,7 @@ describe('the triangle test', {:type => :feature}) do
     fill_in('side-1', :with => '2')
     fill_in('side-2', :with => '2')
     fill_in('side-3', :with => '3')
-    click_button('Click')
+    click_button('Submit')
     expect(page).to have_content('isosceles'.capitalize)
   end
 end
