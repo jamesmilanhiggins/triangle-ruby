@@ -4,11 +4,11 @@
 
 Specs:
 * Is it a triangle?
-  **Input:** 2, 3, 8
-  **Output:** False
+  *  **Input:** 2, 3, 8
+  *  **Output:** False
 * What kind of triangle?
-  **Input:** 2, 2, 3
-  **Output:** Isosceles
+  *  **Input:** 2, 2, 3
+  *  **Output:** Isosceles
 
 Known Bugs:
 _No known bugs at this time_
