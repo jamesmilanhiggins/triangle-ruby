@@ -1,0 +1,8 @@
+
+
+<h1>your triangle is:</h1>
+<%
+tri = Triangle.new(@input_side1, @input_side2, @input_side3)
+outcome = tri.what_kind.capitalize
+%>
+<div style='font-size: 2em;'><%= outcome %></div>

@@ -28,6 +28,8 @@ class Triangle
       'scalene'
     elsif is_a_triangle? && is_isosceles?
       'isosceles'
+    else
+      'not a triangle'
     end
   end
 end
